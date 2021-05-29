@@ -40,3 +40,6 @@ To install the demo just go to Menu > Settings > Security > and check Unknown So
 * Ankita Kumari Jain S - https://www.linkedin.com/in/ankita-kumari-jain/
 * Sajid Hussain Rafi Ahamed- https://www.linkedin.com/in/sajidhussain3/
 * Vijayakrishnan - https://www.linkedin.com/in/vijayakrishnan-vinayagam-71760b187/
+
+### Note
+The app asks for login everytime the user opens the app. This is to ensure security of the data entered by the user. As opposed to applocks available in devices that maybe shared with immediate friends/family, this password can be kept private hence ensuring app access only to the user. 
