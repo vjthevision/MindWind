@@ -1,0 +1,63 @@
+{"music" : [
+  {
+    "name" : "MOST GIRLS\nHailee Steinfeld",
+    "image" : "hailee_steinfeld",
+    "link" : "https://music.youtube.com/watch?v=qBB_QOZNEdc"
+  },
+  {
+    "name" : "COUNTING STARS\nOne Republic",
+    "image" : "one_republic",
+    "link" : "https://music.youtube.com/watch?v=R1KJs2JxfGE"
+  },
+  {
+    "name" : "HEY SOUL SISTER\nTrain",
+    "image" : "train",
+    "link" : "https://music.youtube.com/watch?v=_2qJy5r-WAY"
+  },
+  {
+    "name" : "NOT ALL HEROES WEAR CAPES\nOwl city",
+    "image" : "owl_city",
+    "link" : "https://music.youtube.com/watch?v=vuevizTZ3JU"
+  },
+  {
+    "name" : "HAPPIER\nMarshmello & Bastille",
+    "image" : "marshmello",
+    "link" : "https://music.youtube.com/watch?v=QgKYZWRH4DA"
+  },
+  {
+    "name" : "ROAR\nKaty Perry",
+    "image" : "katy_perry",
+    "link" : "https://music.youtube.com/watch?v=9VcDnWMOBtw"
+  },
+  {
+    "name" : "HAPPY\nPharell Williams",
+    "image" : "pharell_williams",
+    "link" : "https://music.youtube.com/watch?v=iiJvWcPUYsI"
+  },
+  {
+    "name" : "WORTH IT\nFifth Harmony",
+    "image" : "fifth_harmony",
+    "link" : "https://music.youtube.com/watch?v=l1s_3ludzHk"
+  },
+  {
+    "name" : "PUT YOUR RECORDS ON\n Ritt Momney",
+    "image" : "ritt_momney",
+    "link" : "https://music.youtube.com/watch?v=9NqhIhsJqHo"
+  },
+  {
+    "name" : "HOLD YOUR HEAD UP HIGH\nDarlingside",
+    "image" : "darlingside",
+    "link" : "https://music.youtube.com/watch?v=ETaSRsr0B2E"
+  },
+  {
+    "name" : "WHAT A WONDERFUL WORLD\nLouis Armstrong",
+    "image" : "louis_armstrong",
+    "link" : "https://music.youtube.com/watch?v=A3yCcXgbKrE"
+  },
+  {
+    "name" : "JAJA DING DONG\nWill Ferrell & My Marianne",
+    "image" : "will_ferrell",
+    "link" : "https://music.youtube.com/watch?v=QBN0bODzLHw"
+  }
+]
+}

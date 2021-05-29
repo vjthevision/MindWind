@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dashboard"
-    android:background="@drawable/purplegradient1">
+    android:background="@drawable/purplegradient1"
+    tools:context=".Dashboard">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        >
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/textView2"
@@ -51,7 +50,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/slide2" />
+            app:srcCompat="@drawable/slide2"
+            android:onClick="callAboutUs"/>
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -71,7 +71,8 @@
                 android:padding="10dp"
                 app:cardBackgroundColor="#0F3057"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp">
+                app:cardElevation="5dp"
+                android:onClick="callMusicPlayer">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -93,10 +94,10 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:onClick="callBookPage"
                 app:cardBackgroundColor="#FCF876"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:onClick="callBookPage">
+                app:cardElevation="5dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -129,11 +130,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:onClick="callJournalPage"
                 android:padding="10dp"
                 app:cardBackgroundColor="#EEFFB2"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:onClick="callJournalPage">
+                app:cardElevation="5dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -155,9 +156,9 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:onClick="callImageViewer"
                 app:cardBackgroundColor="#046582"
                 app:cardCornerRadius="20dp"
-                android:onClick="callImageViewer"
                 app:cardElevation="5dp">
 
                 <RelativeLayout
@@ -190,11 +191,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:onClick="callBookRecommendation"
                 android:padding="10dp"
                 app:cardBackgroundColor="#B61B71"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:onClick="callBookRecommendation">
+                app:cardElevation="5dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -216,10 +217,10 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:onClick="callAnxietyPage"
                 app:cardBackgroundColor="#CAF7E3"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="5dp"
-                android:onClick="callAnxietyPage">
+                app:cardElevation="5dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"

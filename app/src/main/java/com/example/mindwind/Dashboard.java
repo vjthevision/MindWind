@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.mindwind.Common.AboutUs;
 import com.example.mindwind.Common.LoginSignup.UserStartUpScreen;
 import com.example.mindwind.Common.Startpage;
 import com.example.mindwind.User.AnxietyPage;
@@ -13,6 +14,7 @@ import com.example.mindwind.User.BookRecommendation;
 import com.example.mindwind.User.Bookpage;
 import com.example.mindwind.User.ImageSlider;
 import com.example.mindwind.User.JournalPage;
+import com.example.mindwind.User.MusicPlayer;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -43,6 +45,14 @@ public class Dashboard extends AppCompatActivity {
 
     public void callJournalPage(View view){
         startActivity(new Intent(Dashboard.this, JournalPage.class));
+    }
+
+    public void callAboutUs(View view){
+        startActivity(new Intent(Dashboard.this, AboutUs.class));
+    }
+
+    public void callMusicPlayer(View view){
+        startActivity(new Intent(Dashboard.this, MusicPlayer.class));
     }
 
 }

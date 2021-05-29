@@ -43,7 +43,7 @@ public class Startpage extends AppCompatActivity {
                 public void onCompletion(MediaPlayer mediaPlayer) {
                     if (isFinishing())
                         return;
-                    startActivity(new Intent(Startpage.this, SignUp.class));
+                    startActivity(new Intent(Startpage.this, OnBoarding.class));
                     finish();
                 }
             });
@@ -56,7 +56,7 @@ public class Startpage extends AppCompatActivity {
                 public void onCompletion(MediaPlayer mediaPlayer) {
                     if (isFinishing())
                         return;
-                    startActivity(new Intent(Startpage.this, SignUp.class));
+                    startActivity(new Intent(Startpage.this, UserStartUpScreen.class));
                     finish();
                 }
             });

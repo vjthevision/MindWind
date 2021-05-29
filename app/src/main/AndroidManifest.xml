@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MindWind">
-        <activity android:name=".User.NoteEditorActivity"></activity>
+        <activity android:name=".User.MusicPlayer"></activity>
+        <activity android:name=".Common.AboutUs" />
+        <activity android:name=".User.NoteEditorActivity" />
         <activity android:name=".User.JournalPage" />
         <activity android:name=".User.BookRecommendation" />
         <activity android:name=".User.AnxietyPage" />

@@ -43,7 +43,7 @@
     <string name="new_credentials_detail">Your Identity has been verified set your new password</string>
     <string name="password_updated">Password Updated</string>
     <string name="password_updated_success_message">Your Password has been updated successfully!</string>
-
+    <string name="music_title">Here is some music to help you feel better</string>
     <!--    OTP Strings-->
     <string name="otp_code_text">Code</string>
     <string name="otp_description_text">Enter One Time Password </string>
