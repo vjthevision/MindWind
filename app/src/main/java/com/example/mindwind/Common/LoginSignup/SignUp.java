@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.mindwind.Common.Startpage;
 import com.example.mindwind.R;
 import com.google.android.material.textfield.TextInputLayout;
 
@@ -56,10 +57,11 @@ public class SignUp extends AppCompatActivity {
 
         // Add Transitions
 
-        String name = getIntent().getStringExtra("fullName");
-        String email = getIntent().getStringExtra("email");
-        String username = getIntent().getStringExtra("username");
-        String password = getIntent().getStringExtra("password");
+
+//        String name = getIntent.getStringExtra("fullName");
+//        String email = getIntent().getStringExtra("email");
+//        String username = getIntent().getStringExtra("username");
+//        String password = getIntent().getStringExtra("password");
 
         Pair[] pairs = new Pair[5];
 
@@ -68,6 +70,12 @@ public class SignUp extends AppCompatActivity {
         pairs[2] = new Pair<View, String>(login, "transition_signup_btn");
         pairs[3] = new Pair<View, String>(titleText, "transition_title_btn");
         pairs[4] = new Pair<View, String>(slideText, "transition_slide_text");
+
+        //Pass all fields to the next activity.
+        intent.putExtra("fullName", fullName.getEditText().getText().toString().trim());
+        intent.putExtra("email", email.getEditText().getText().toString().trim());
+        intent.putExtra("username", username.getEditText().getText().toString().trim());
+        intent.putExtra("password", password.getEditText().getText().toString().trim());
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
             ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(SignUp.this, pairs);
@@ -150,6 +158,10 @@ public class SignUp extends AppCompatActivity {
             email.setErrorEnabled(false);
             return true;
         }
+    }
+
+    public void callUserStartupScreen(View view){
+        startActivity(new Intent(SignUp.this, UserStartUpScreen.class));
     }
 
 }

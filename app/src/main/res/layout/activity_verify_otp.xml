@@ -11,14 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="30dp">
+        android:padding="50dp">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="goToHomeFromOTP"
-            android:padding="5dp"
-            android:src="@drawable/general_close_icon" />
+
 
         <TextView
             android:layout_width="wrap_content"

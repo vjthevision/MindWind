@@ -47,7 +47,7 @@ public class OnBoarding extends AppCompatActivity {
     }
 
     public void skip(View view){
-        startActivity(new Intent(this, Dashboard.class));
+        startActivity(new Intent(this, UserStartUpScreen.class));
         finish();
     }
 
@@ -56,7 +56,7 @@ public class OnBoarding extends AppCompatActivity {
     }
 
     public void callUserStartupScreen(View view){
-        startActivity(new Intent(getApplicationContext(), Dashboard.class));
+        startActivity(new Intent(getApplicationContext(), UserStartUpScreen.class));
     }
 
     private void addDots(int position) {

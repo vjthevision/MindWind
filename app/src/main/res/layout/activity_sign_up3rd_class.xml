@@ -21,6 +21,7 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:src="@drawable/back"
+            android:onClick="callUserStartupScreen"
             android:transitionName="transition_back_arrow_btn" />
         <RelativeLayout
             android:layout_width="match_parent"
@@ -36,7 +37,7 @@
                 android:fontFamily="@font/convergence"
                 android:text="@string/create_account"
                 android:textAllCaps="true"
-                android:textColor="@color/black"
+                android:textColor="@color/ic_launcher_background"
                 android:textSize="40sp"
                 android:transitionName="transition_title_text" />
 

@@ -47,26 +47,27 @@ public class SignUp3rdClass extends AppCompatActivity {
         }
 
         //Get all values passed from previous Screens using Intents.
+        Intent intent = new Intent(getApplicationContext(), VerifyOTP.class);
 
         String _fullName = getIntent().getStringExtra("fullName");
         String _email = getIntent().getStringExtra("email");
         String _username = getIntent().getStringExtra("username");
         String _password = getIntent().getStringExtra("password");
-        String _date = getIntent().getStringExtra("date");
+        String _age = getIntent().getStringExtra("age");
         String _gender = getIntent().getStringExtra("gender");
 
 
         String _getUserEnteredPhoneNumber = phoneNumber.getEditText().getText().toString().trim();
         //String _phoneNo ="+"+countryCodePicker.getFullNumber()+_getUserEnteredPhoneNumber;
         String _phoneNo ="+"+"91"+_getUserEnteredPhoneNumber;
-        Intent intent = new Intent(getApplicationContext(), VerifyOTP.class);
+
 
         //Pass all fields to the next activity.
         intent.putExtra("fullName", _fullName);
         intent.putExtra("email", _email);
         intent.putExtra("username", _username);
         intent.putExtra("password", _password);
-        intent.putExtra("date", _date);
+        intent.putExtra("age", _age);
         intent.putExtra("gender", _gender);
         intent.putExtra("phoneNo", _phoneNo);
 
@@ -82,7 +83,9 @@ public class SignUp3rdClass extends AppCompatActivity {
 
     }
 
-
+    public void callUserStartupScreen(View view){
+        startActivity(new Intent(SignUp3rdClass.this, SignUp2ndClass.class));
+    }
     private boolean validatePhoneNumber() {
         String val = phoneNumber.getEditText().getText().toString().trim();
         Log.i("info",val);

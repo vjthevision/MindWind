@@ -56,7 +56,20 @@ public class SignUp2ndClass extends AppCompatActivity {
     public void call3rdSignupScreen(View view) {
 
         Intent intent = new Intent(getApplicationContext(), SignUp3rdClass.class);
+
+        String fullName = getIntent().getStringExtra("fullName");
+        String email = getIntent().getStringExtra("email");
+        String username = getIntent().getStringExtra("username");
+        String password = getIntent().getStringExtra("password");
+
+        intent.putExtra("fullName", fullName);
+        intent.putExtra("email", email);
+        intent.putExtra("username", username);
+        intent.putExtra("password", password);
+        intent.putExtra("gender", ""+radioGroup.getCheckedRadioButtonId());
+        intent.putExtra("age", ""+datePicker.getYear());
         //Add Transition and call next activity
+
         Pair[] pairs = new Pair[5];
         pairs[0] = new Pair<View, String>(backBtn, "transition_back_arrow_btn");
         pairs[1] = new Pair<View, String>(next, "transition_next_btn");
@@ -80,7 +93,9 @@ public class SignUp2ndClass extends AppCompatActivity {
         startActivity(new Intent(SignUp2ndClass.this, Login.class));
     }
 
-
+    public void callUserStartupScreen(View view){
+        startActivity(new Intent(SignUp2ndClass.this, SignUp.class));
+    }
 
 private boolean validateGender(){
         if(radioGroup.getCheckedRadioButtonId()==-1){

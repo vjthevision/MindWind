@@ -2,17 +2,13 @@ package com.example.mindwind.Common.LoginSignup;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.arch.core.executor.TaskExecutor;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
 import com.chaos.view.PinView;
-import com.example.mindwind.Common.OnBoarding;
-import com.example.mindwind.Common.Startpage;
+
 import com.example.mindwind.Dashboard;
 import com.example.mindwind.Databases.UserHelperClass;
 import com.example.mindwind.R;
@@ -53,7 +49,6 @@ public class VerifyOTP extends AppCompatActivity {
         date = getIntent().getStringExtra("date");
         gender = getIntent().getStringExtra("gender");
         phoneNo = getIntent().getStringExtra("phoneNo");
-//        whatToDO = getIntent().getStringExtra("whatToDO");
         
         sendVerificationCodeToUser(phoneNo);
     }
@@ -111,7 +106,7 @@ public class VerifyOTP extends AppCompatActivity {
     }
 
     private void storeNewUsersData() {
-        FirebaseDatabase rootNode = FirebaseDatabase.getInstance();
+        FirebaseDatabase rootNode = FirebaseDatabase.getInstance("https://mindwind-b349f-default-rtdb.firebaseio.com/");
         DatabaseReference reference = rootNode.getReference("Users");
 
         UserHelperClass addNewUser = new UserHelperClass(fullName, username, email, phoneNo, password, date, gender);

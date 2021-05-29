@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
+
 import com.example.mindwind.Common.AboutUs;
 import com.example.mindwind.User.AnxietyPage;
 import com.example.mindwind.User.BookRecommendation;
@@ -13,7 +15,9 @@ import com.example.mindwind.User.ImageSlider;
 import com.example.mindwind.User.JournalPage;
 import com.example.mindwind.User.MusicPlayer;
 
+
 public class Dashboard extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

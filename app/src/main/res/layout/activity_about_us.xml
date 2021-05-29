@@ -77,7 +77,7 @@
         android:paddingTop="10dp"
         android:paddingRight="20dp"
         android:paddingBottom="10dp"
-        android:text="Four Tech enthusiasts turned friends with the passion to bring innovative ideas to life. We are undergrads from NITPY majoring in departments of ECE and CSE. "
+        android:text="Four Tech enthusiasts turned friends with the passion to bring innovative ideas to life. We are undergrads from NITPY majoring in departments of CSE and ECE. "
         android:textColor="#325288"
         android:textSize="24sp"
         android:textStyle="bold"

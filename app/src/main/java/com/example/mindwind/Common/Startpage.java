@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.WindowManager;
 import android.widget.VideoView;
 
+import com.example.mindwind.Common.LoginSignup.Login;
 import com.example.mindwind.Common.LoginSignup.SignUp;
 import com.example.mindwind.Common.LoginSignup.UserStartUpScreen;
 import com.example.mindwind.Dashboard;
@@ -56,7 +57,7 @@ public class Startpage extends AppCompatActivity {
                 public void onCompletion(MediaPlayer mediaPlayer) {
                     if (isFinishing())
                         return;
-                    startActivity(new Intent(Startpage.this, Dashboard.class));
+                    startActivity(new Intent(Startpage.this, UserStartUpScreen.class));
                     finish();
                 }
             });
