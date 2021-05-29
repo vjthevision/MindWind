@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "156360932453",
+    "project_id": "mindwind-b349f",
+    "storage_bucket": "mindwind-b349f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156360932453:android:800bdab6d72e64a7345a8c",
+        "android_client_info": {
+          "package_name": "com.example.mindwind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156360932453-0h1ls44lauglm7uv78fqr5gjdrksce40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3uT6NPXiJjfRJItseqKzMH3KG_pKEWrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156360932453-0h1ls44lauglm7uv78fqr5gjdrksce40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

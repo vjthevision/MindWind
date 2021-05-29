@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F2"
+    tools:context=".User.NoteEditorActivity">
+
+    <EditText
+        android:id="@+id/multilineedit"
+        android:layout_width="360dp"
+        android:layout_height="632dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="top|left"
+        android:hint="\nList down things that have been making you sad or anxious. \nAlso list down things that've been a source of happiness.\n\nAlways remember, You have at least a thousand capacities in you. Even if you don't think so.❤🌻"
+        android:inputType="textMultiLine"
+        android:padding="8dp"
+        android:textColor="#114e60"
+        android:textColorHint="#99114E60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintVertical_weight="1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="357dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/convergence"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="How are you feeling today?"
+        android:textColor="#114e60"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

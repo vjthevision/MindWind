@@ -1,0 +1,2 @@
+rootProject.name = "MindWind"
+include ':app'

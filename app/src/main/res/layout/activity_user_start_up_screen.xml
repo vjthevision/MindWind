@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/babypink"
+    android:padding="30dp"
+    tools:context=".Common.LoginSignup.UserStartUpScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:src="@drawable/im1"
+            android:paddingTop="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/convergence"
+            android:text="@string/user_heading"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:fontFamily="@font/convergence"
+                android:onClick="callLoginScreen"
+                android:textSize="20dp"
+                android:text="@string/login"
+                android:textColor="@color/purple_700"
+                android:transitionName="transition_login" />
+
+            <Button
+                android:id="@+id/signup_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/convergence"
+                android:background="@color/purple_200"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:onClick="callSignUpScreen"
+                android:text="@string/sign_up"
+                android:textColor="@color/purple_700"
+                android:transitionName="transition_signup" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MindWind</string>
+    <string name="logo_name">Peaceful Mind</string>
+    <string name="slogan_name">Unwind your Mind here</string>
+    <string name="powered_by">Made with ❤ by Trojan Horse</string>
+    <string name="add_note">Add Note</string>
+    <!--Strings for Onboarding Screen-->
+    <!--Size,Font:convergence-->
+    <!--Titles-->
+    <string name="first_slide_title">Unwind your Mind here</string>
+    <string name="second_slide_title"> Hi! I am Ryo </string>
+    <string name="third_slide_title">Lets Get Started</string>
+
+
+    <!--Description-->
+    <string name="first_slide_desc">Are you Ready?</string>
+    <string name="second_slide_desc">Your Mind Assistant.I\'m excited to join you on your journey to unwind your thoughts and relax a bit\nbecause Sunshine! You deserve a break ❤</string>
+    <string name="third_slide_desc">Unlock a world where sadness takes a backseat and Joy takes control of the headquarters.</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="login_btn">Login</string>
+    <string name="let_get_started">UnWind</string>
+
+    <!--    General Strings-->
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="user_heading">One Step at a time</string>
+    <string name="create_account">Sign Up</string>
+    <string name="enter_full_name">Full Name</string>
+    <string name="enter_phone_number">Phone Number</string>
+    <string name="enter_email">Email</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="forget_password_detail">Provide Your Account Email For Which You Want To Reset Your Password!</string>
+    <string name="make_selection_detail">Select a mode for Password Retrieval</string>
+    <string name="via_sms">Via SMS</string>
+    <string name="via_email">Via Email</string>
+    <string name="new_credentials">Update Password</string>
+    <string name="new_credentials_detail">Your Identity has been verified set your new password</string>
+    <string name="password_updated">Password Updated</string>
+    <string name="password_updated_success_message">Your Password has been updated successfully!</string>
+
+    <!--    OTP Strings-->
+    <string name="otp_code_text">Code</string>
+    <string name="otp_description_text">Enter One Time Password </string>
+    <string name="otp_verification_text">Verification</string>
+
+</resources>
