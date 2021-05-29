@@ -13,8 +13,6 @@
         android:orientation="vertical"
         android:padding="50dp">
 
-
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -69,7 +67,7 @@
             app:itemCount="6"
             app:itemHeight="50dp"
             app:itemRadius="5dp"
-            app:itemWidth="50dp"
+            app:itemWidth="40dp"
             app:lineColor="@color/colorAccent"
             app:lineWidth="1dp" />
 
