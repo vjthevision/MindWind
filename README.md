@@ -33,7 +33,7 @@ You may clone or download the repo to your local machine and build your own app 
 ## Screenshots:
 
 ## Installing:
-To install the [demo]https://drive.google.com/file/d/1S8trVAFp_gYNdgmfWdh4QwtubQJGEY6v/view?usp=sharing just go to Menu > Settings > Security > and check Unknown Sources to allow your phone to install apps from sources other than the Google Play Store and download the demo
+To install the [demo](https://drive.google.com/file/d/1S8trVAFp_gYNdgmfWdh4QwtubQJGEY6v/view?usp=sharing) just go to Menu > Settings > Security > and check Unknown Sources to allow your phone to install apps from sources other than the Google Play Store and download the demo
 
 ## Meet the Team:
 * Ayisha Ryhana D - https://www.linkedin.com/in/ayisha-d/
