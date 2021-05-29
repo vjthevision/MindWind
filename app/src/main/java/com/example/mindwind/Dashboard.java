@@ -5,10 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import com.example.mindwind.Common.AboutUs;
-import com.example.mindwind.Common.LoginSignup.UserStartUpScreen;
-import com.example.mindwind.Common.Startpage;
 import com.example.mindwind.User.AnxietyPage;
 import com.example.mindwind.User.BookRecommendation;
 import com.example.mindwind.User.Bookpage;

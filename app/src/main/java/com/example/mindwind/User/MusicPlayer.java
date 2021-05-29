@@ -62,7 +62,7 @@ public class MusicPlayer extends AppCompatActivity implements View.OnClickListen
             int width = (displayMetrics.widthPixels -24) /2;
             //int width = (int) (Math.pow(screenWidth /displayMetrics.xdpi, 2) - 24)/2;
 
-            Toast.makeText(this, "w "+width, Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "w "+width, Toast.LENGTH_SHORT).show();
 
             LinearLayout ll = (LinearLayout) findViewById(R.id.button_layout);
             Random r = new Random();

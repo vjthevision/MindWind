@@ -81,9 +81,7 @@ public class SignUp3rdClass extends AppCompatActivity {
         }
 
     }
-//        public void callVerifyOTPScreen(View view){
-//        startActivity(new Intent(SignUp3rdClass.this, Dashboard.class));
-//    }
+
 
     private boolean validatePhoneNumber() {
         String val = phoneNumber.getEditText().getText().toString().trim();

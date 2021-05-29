@@ -15,6 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.mindwind.Common.LoginSignup.UserStartUpScreen;
+import com.example.mindwind.Dashboard;
 import com.example.mindwind.HelperClasses.SliderAdapter;
 import com.example.mindwind.R;
 
@@ -46,7 +47,7 @@ public class OnBoarding extends AppCompatActivity {
     }
 
     public void skip(View view){
-        startActivity(new Intent(this, UserStartUpScreen.class));
+        startActivity(new Intent(this, Dashboard.class));
         finish();
     }
 
@@ -55,7 +56,7 @@ public class OnBoarding extends AppCompatActivity {
     }
 
     public void callUserStartupScreen(View view){
-        startActivity(new Intent(getApplicationContext(), UserStartUpScreen.class));
+        startActivity(new Intent(getApplicationContext(), Dashboard.class));
     }
 
     private void addDots(int position) {

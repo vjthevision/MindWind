@@ -50,7 +50,7 @@
             android:textSize="30sp"
             android:padding="10dp"
             android:layout_centerVertical="true"
-            android:background="@drawable/im1"
+            android:background="@drawable/ic_round_radio_button_unchecked_24"
             android:transitionName="transition_slide_text"
             android:gravity="center" />
         </RelativeLayout>

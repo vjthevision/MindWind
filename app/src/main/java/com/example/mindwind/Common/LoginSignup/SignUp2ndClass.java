@@ -18,8 +18,9 @@ import com.example.mindwind.Common.Startpage;
 import com.example.mindwind.Dashboard;
 import com.example.mindwind.R;
 import android.view.WindowManager;
+import android.widget.Toast;
 
-
+import java.util.Calendar;
 
 
 public class SignUp2ndClass extends AppCompatActivity {
@@ -73,36 +74,35 @@ public class SignUp2ndClass extends AppCompatActivity {
 
     }
 
-//    public void call3rdSignupScreen(View view){
-//        startActivity(new Intent(SignUp2ndClass.this, SignUp3rdClass.class));
-//    }
+
 
     public void callLoginScreen(View view){
         startActivity(new Intent(SignUp2ndClass.this, Login.class));
     }
+
+
+
+private boolean validateGender(){
+        if(radioGroup.getCheckedRadioButtonId()==-1){
+            Toast.makeText(this,"Please Select Gender",Toast.LENGTH_SHORT).show();
+            return false;
+        }else{
+            return true;
+        }
+
+    }
+
+    private boolean validateAge(){
+        int currentYear= Calendar.getInstance().get(Calendar.YEAR);
+        int userAge = datePicker.getYear();
+        int isAgeValid = currentYear - userAge;
+        if(isAgeValid < 14){
+            Toast.makeText(this,"You are not eligible to apply",Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
 }
-
-
-//private boolean validateGender(){
-//        if(radioGroup.getCheckedRadioButtonId()==-1){
-//            Toast.makeText(this,"Please Select Gender",Toast.LENGTH_SHORT).show();
-//            return false;
-//        }else{
-//            return true;
-//        }
-//
-//    }
-//
-//    private boolean validateAge(){
-//        int currentYear= Calendar.getInstance().get(Calendar.YEAR);
-//        int userAge = datePicker.getYear();
-//        int isAgeValid = currentYear - userAge;
-//        if(isAgeValid < 14){
-//            Toast.makeText(this,"You are not eligible to apply",Toast.LENGTH_SHORT).show();
-//            return false;
-//        }
-//        else {
-//            return true;
-//        }
-//    }
-//

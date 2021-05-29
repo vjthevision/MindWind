@@ -48,9 +48,9 @@ public class SignUp extends AppCompatActivity {
 
     public void callNextSignupScreen(View view) {
 
-//        if(!validateFullName() | !validateUserName() | !validateEmail() | !validatePassword()){
-//            return;
-//        }
+        if(!validateFullName() | !validateUserName() | !validateEmail() | !validatePassword()){
+            return;
+        }
 
         Intent intent = new Intent(getApplicationContext(), SignUp2ndClass.class);
 
