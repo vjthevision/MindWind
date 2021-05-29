@@ -5,15 +5,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.mindwind.Common.OnBoarding;
 import com.example.mindwind.Common.Startpage;
+import com.example.mindwind.Dashboard;
 import com.example.mindwind.R;
 import com.example.mindwind.User.AnxietyPage;
 import com.google.android.material.textfield.TextInputLayout;
@@ -54,8 +57,8 @@ public class SignUp3rdClass extends AppCompatActivity {
 
 
         String _getUserEnteredPhoneNumber = phoneNumber.getEditText().getText().toString().trim();
-        String _phoneNo = "+" + countryCodePicker.getFullNumber() + _getUserEnteredPhoneNumber;
-
+        //String _phoneNo ="+"+countryCodePicker.getFullNumber()+_getUserEnteredPhoneNumber;
+        String _phoneNo ="+"+"91"+_getUserEnteredPhoneNumber;
         Intent intent = new Intent(getApplicationContext(), VerifyOTP.class);
 
         //Pass all fields to the next activity.
@@ -76,12 +79,16 @@ public class SignUp3rdClass extends AppCompatActivity {
         } else {
             startActivity(intent);
         }
-        
+
     }
+//        public void callVerifyOTPScreen(View view){
+//        startActivity(new Intent(SignUp3rdClass.this, Dashboard.class));
+//    }
 
     private boolean validatePhoneNumber() {
         String val = phoneNumber.getEditText().getText().toString().trim();
-        String checkspace = "\\A\\w{1,20}\\z";
+        Log.i("info",val);
+        String checkspace ="^\\d{10}$";
 
         if (val.isEmpty()) {
             phoneNumber.setError("Enter valid phone number");
@@ -95,10 +102,6 @@ public class SignUp3rdClass extends AppCompatActivity {
             return true;
         }
 
-    }
-
-    public void newscreen(View view){
-        startActivity(new Intent(SignUp3rdClass.this, AnxietyPage.class));
     }
 
 }

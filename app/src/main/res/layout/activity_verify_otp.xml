@@ -86,7 +86,7 @@
             android:background="@color/colorPrimary"
             android:onClick="callNextScreenFromOTP"
             android:text="Verify Code"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:transitionName="transition_OTP_screen" />
 
 

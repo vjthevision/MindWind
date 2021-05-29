@@ -20,7 +20,7 @@ public class SignUp extends AppCompatActivity {
 
     ImageView backBtn;
     Button next, login;
-    TextView titleText;
+    TextView titleText,slideText;
 
     //Get Data Variables
     TextInputLayout fullName, username, email, password;
@@ -35,6 +35,7 @@ public class SignUp extends AppCompatActivity {
         next = findViewById(R.id.signup_next_btn);
         login = findViewById(R.id.signup_login_btn);
         titleText = findViewById(R.id.signup_title_text);
+        slideText =findViewById(R.id.signup_slide_text);
 
         //Hooks for Data Variable
         fullName = findViewById(R.id.signup_fullname);
@@ -60,12 +61,13 @@ public class SignUp extends AppCompatActivity {
         String username = getIntent().getStringExtra("username");
         String password = getIntent().getStringExtra("password");
 
-        Pair[] pairs = new Pair[4];
+        Pair[] pairs = new Pair[5];
 
         pairs[0] = new Pair<View, String>(backBtn, "transition_back_arrow_btn");
         pairs[1] = new Pair<View, String>(next, "transition_next_btn");
         pairs[2] = new Pair<View, String>(login, "transition_signup_btn");
         pairs[3] = new Pair<View, String>(titleText, "transition_title_btn");
+        pairs[4] = new Pair<View, String>(slideText, "transition_slide_text");
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
             ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(SignUp.this, pairs);
