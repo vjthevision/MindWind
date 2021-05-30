@@ -27,16 +27,16 @@ You may clone or download the repo to your local machine and build your own app 
 
 ## Screenshots:
 <p float="left">
-  <img src = https://user-images.githubusercontent.com/62535006/120092805-8d1e5400-c133-11eb-9666-1a592e8fb040.jpeg width="200"/>
-  <img src =https://user-images.githubusercontent.com/62535006/120092825-b63ee480-c133-11eb-9bda-985afc17daa5.jpeg width ="200"/> 
-  <img src= https://user-images.githubusercontent.com/62535006/120092833-b8a13e80-c133-11eb-8ca7-cf9bc480c7f1.jpeg  width ="200"/> 
-  <img src= https://user-images.githubusercontent.com/62535006/120092845-bb039880-c133-11eb-8314-af18d68bc879.jpeg  width ="200"/> 
-  <img src=https://user-images.githubusercontent.com/62535006/120092856-c0f97980-c133-11eb-9d15-a778ecb6257b.jpeg  width ="200"/> 
-  <img src=https://user-images.githubusercontent.com/62535006/120092857-c22aa680-c133-11eb-88da-fac7578102d5.jpeg  width ="200"/>
-  <img src= https://user-images.githubusercontent.com/62535006/120092859-c35bd380-c133-11eb-858c-51dcc01810a8.jpeg  width ="200"/> 
-  <img src=https://user-images.githubusercontent.com/62535006/120092860-c6ef5a80-c133-11eb-936c-657a8d6fa456.jpeg  width ="200"/> 
-  <img src =https://user-images.githubusercontent.com/62535006/120092863-c8b91e00-c133-11eb-8a81-2d9c0bd71f21.jpeg  width ="200"/>
-  <img src = https://user-images.githubusercontent.com/62535006/120092865-c9ea4b00-c133-11eb-8ff2-b18b500f5cff.jpeg  width ="200"/>
+  <img src = https://user-images.githubusercontent.com/62535006/120092805-8d1e5400-c133-11eb-9666-1a592e8fb040.jpeg width="100"/>
+  <img src =https://user-images.githubusercontent.com/62535006/120092825-b63ee480-c133-11eb-9bda-985afc17daa5.jpeg width ="100"/> 
+  <img src= https://user-images.githubusercontent.com/62535006/120092833-b8a13e80-c133-11eb-8ca7-cf9bc480c7f1.jpeg  width ="100"/> 
+  <img src= https://user-images.githubusercontent.com/62535006/120092845-bb039880-c133-11eb-8314-af18d68bc879.jpeg  width ="100"/> 
+  <img src=https://user-images.githubusercontent.com/62535006/120092856-c0f97980-c133-11eb-9d15-a778ecb6257b.jpeg  width ="100"/> 
+  <img src=https://user-images.githubusercontent.com/62535006/120092857-c22aa680-c133-11eb-88da-fac7578102d5.jpeg  width ="100"/>
+  <img src= https://user-images.githubusercontent.com/62535006/120092859-c35bd380-c133-11eb-858c-51dcc01810a8.jpeg  width ="100"/> 
+  <img src=https://user-images.githubusercontent.com/62535006/120092860-c6ef5a80-c133-11eb-936c-657a8d6fa456.jpeg  width ="100"/> 
+  <img src =https://user-images.githubusercontent.com/62535006/120092863-c8b91e00-c133-11eb-8a81-2d9c0bd71f21.jpeg  width ="100"/>
+  <img src = https://user-images.githubusercontent.com/62535006/120092865-c9ea4b00-c133-11eb-8ff2-b18b500f5cff.jpeg  width ="100"/>
 </p>
 
 ## Installing:
